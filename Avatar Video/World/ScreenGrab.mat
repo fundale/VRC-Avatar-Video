@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ScreenGrab
+  m_Shader: {fileID: 4800000, guid: e08062abf6be7dd47ab8675093b38627, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AudioSpectrum:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ProjectionMainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ProjectionTex2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ProjectionTex3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ProjectionTex4:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ProjectionTex5:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ProjectionTex6:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SamplingTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Band: 0
+    - _BandMultiplier: 1
+    - _BlendDst: 1
+    - _BlendOp: 0
+    - _BlendSrc: 2
+    - _BlueMultiplier: 1
+    - _BumpScale: 1
+    - _ConeLength: 1
+    - _ConeSync: 0.2
+    - _ConeWidth: 0
+    - _Cutoff: 0.5
+    - _Delay: 0
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EnableAudioLink: 0
+    - _EnableColorChord: 0
+    - _EnableColorTextureSample: 0
+    - _EnableSpin: 0
+    - _EnableStaticEmissionColor: 0
+    - _FinalIntensity: 1
+    - _FixtureBaseRotationY: 0
+    - _FixtureMaxIntensity: 0.5
+    - _FixtureRotationX: 0
+    - _GlobalIntensity: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GreenMultiplier: 1
+    - _LensMaxBrightness: 5
+    - _MaxMinPanAngle: 180
+    - _MaxMinTiltAngle: 180
+    - _Metallic: 0
+    - _Mode: 0
+    - _NumBands: 4
+    - _OcclusionStrength: 1
+    - _PanInvert: 0
+    - _Parallax: 0.02
+    - _ProjectionDistanceFallOff: 0.05
+    - _ProjectionFade: 0
+    - _ProjectionFadeCurve: 1
+    - _ProjectionIntensity: 0
+    - _ProjectionRange: 0
+    - _ProjectionRotation: 0
+    - _ProjectionSelection: 0
+    - _ProjectionShadowHarshness: 0
+    - _ProjectionUVMod: 0
+    - _ProjectionUVMod2: 0
+    - _ProjectionUVMod3: 0
+    - _ProjectionUVMod4: 0
+    - _ProjectionUVMod5: 0
+    - _ProjectionUVMod6: 0
+    - _RedMultiplier: 1
+    - _Saturation: 1
+    - _SaturationLength: 0.1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpinSpeed: 0
+    - _SrcBlend: 1
+    - _TextureColorSampleX: 0.5
+    - _TextureColorSampleY: 0.5
+    - _TiltInvert: 0
+    - _UVSec: 0
+    - _UniversalIntensity: 1
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Emission: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FixtureRotationOrigin: {r: 0, g: 0.014709, b: -1.02868, a: 0}
+    - _ProjectionRangeOrigin: {r: 0, g: -0.07535, b: 0.12387, a: 0}
+    - _StaticEmission: {r: 1, g: 1, b: 1, a: 1}
